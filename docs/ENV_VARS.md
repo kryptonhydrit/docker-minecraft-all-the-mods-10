@@ -12,7 +12,7 @@
 | Variable | Description |
 | --- | --- |
 | OPS_LIST | Create a comma-separated list of players to assign operator rights |
-| WHITELIST_LIST | Create a comma-separated list of players to add to the whitelist |
+| ALLOW_LIST | Create a comma-separated list of players to add to the whitelist |
 
 ## Gameserver settings
 

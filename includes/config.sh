@@ -6,8 +6,8 @@ function init_player_lists() {
         echo $OPS_LIST | tr ',' '\n' > ops.txt
     fi
 
-    if [[ -n "$WHITELIST_LIST" ]]; then
-        echo $WHITELIST_LIST | tr ',' '\n' > white-list.txt
+    if [[ -n "$ALLOW_LIST" ]]; then
+        echo $ALLOW_LIST | tr ',' '\n' > white-list.txt
     fi
 }
 
