@@ -1,18 +1,31 @@
-# docker-all-the-mods-10
+# Docker - All the Mods 10 Server
 
-- [docker-all-the-mods-10](#docker-all-the-mods-10)
+- [Docker - All the Mods 10 Server](#docker---all-the-mods-10-server)
   - [About](#about)
-  - [Requirements](#requirements)
+  - [Getting started](#getting-started)
   - [Environment variables](#environment-variables)
   - [FAQ](#faq)
+    - [Update to newer version](#update-to-newer-version)
+
 
 ## About
 On first run the container will download and install the tagged Version ´All the Mods 10-X.X.X´ and install it.
 
-## Requirements
+## Getting started
+
+1. Create a `game` sub-directory on your Docker-Node
+    - (Examples: `/opt/minecraft-atm10`)
+    - Directory will be used to store the gamefiles
+2. Pull latest version with `docker pull kryptonhydrit/minecraft-atm10:latest`
+3. Start the container with the following command: \
+  `docker run -d -e "EULA=true" -v "/opt/minecraft-atm10:/data" -p "25565:25565" --name minecraft-atm10 kryptonhydrit/minecraft-atm10:latest`
 
 ## Environment variables
 
 See [this file](/docs/ENV_VARS.md) for the documentation
 
 ## FAQ
+
+### Update to newer version
+> [!CAUTION]
+> Don't update your server without backup the `game` directory
