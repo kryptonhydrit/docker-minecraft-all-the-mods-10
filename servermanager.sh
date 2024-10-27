@@ -1,20 +1,14 @@
 #!/bin/bash
 
 # Colors
-BLACK="\033[0;30m'"
 RED="\033[0;31m"
 GREEN="\033[0;32m"
 YELLOW="\033[0;33"
 BLUE="\033[0;34m"
-MAGENTA="\033[0;35m"
-CYAN="\033[0;36m"
-WHITE="\033[0;37m"
 NC="\033[0m"
 
 # Variables
 _SERVER_FILES="Server-Files-1.9.zip"
-
-set -x # For development purpose
 
 if [[ ! -d "/data" ]]; then
     echo -e "${RED}> [ERROR] No mountpoint found, data loss possible - Continue without persistent data!${NC}"
