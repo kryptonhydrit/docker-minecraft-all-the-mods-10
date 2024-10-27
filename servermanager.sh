@@ -12,7 +12,7 @@ WHITE="\033[0;37m"
 NC="\033[0m"
 
 # Variables
-_SERVER_FILES="Server-Files-1.3.zip"
+_SERVER_FILES="Server-Files-1.9.zip"
 
 set -x # For development purpose
 
@@ -37,7 +37,7 @@ if [[ ! -f "$_SERVER_FILES" ]]; then
         mods \
         packmenu \
         forge*
-    curl -Lo "$_SERVER_FILES" "https://mediafilez.forgecdn.net/files/5826/354/$_SERVER_FILES" || exit 1
+    curl -Lo "$_SERVER_FILES" "https://mediafilez.forgecdn.net/files/5851/209/$_SERVER_FILES" || exit 1
     bsdtar -xf $_SERVER_FILES --strip-component 1
     ATM10_INSTALL_ONLY=true /bin/bash startserver.sh
 fi
