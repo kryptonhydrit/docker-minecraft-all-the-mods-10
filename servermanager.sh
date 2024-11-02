@@ -30,7 +30,7 @@ if [[ ! -f "$_SERVER_FILES" ]]; then
         kubejs \
         mods \
         packmenu \
-        forge*
+        neoforge*
     curl -Lo "$_SERVER_FILES" "https://mediafilez.forgecdn.net/files/5864/409/$_SERVER_FILES" || exit 1
     bsdtar -xf $_SERVER_FILES --strip-component 1
     ATM10_INSTALL_ONLY=true /bin/bash startserver.sh
