@@ -5,7 +5,6 @@
 | Variable | Description | Allowed values |
 | --- | --- | --- |
 | EULA | Must set to true to install server | Boolean |
-| JVM_ARGS | Set custom jvm arguments, e.g. -Xms2G -Xms10G | List |
 | SERVER_CONFIG_AUTO_MODE | Set to 'false' to provide custom config | Boolean | 
 
 ## Player settings
