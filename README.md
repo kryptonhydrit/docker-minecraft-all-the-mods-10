@@ -6,6 +6,7 @@
   - [Environment variables](#environment-variables)
   - [FAQ](#faq)
     - [Update to newer version](#update-to-newer-version)
+  - [Sources](#sources)
 
 
 ## About
@@ -29,3 +30,11 @@ See [this file](/docs/ENV_VARS.md) for the documentation
 ### Update to newer version
 > [!CAUTION]
 > Don't update your server without backup the `game` directory
+1. Backup your `game` directory
+2. Pull latest image or specific version from the container `docker pull kryptonhydrit/minecraft-atm10:TAG`
+3. Start the container and mount the existing `game` directory
+
+## Sources
+
+Github: https://github.com/kryptonhydrit/docker-all-the-mods-10 \
+Docker: https://hub.docker.com/repository/docker/kryptonhydrit/minecraft-atm10
