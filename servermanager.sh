@@ -12,7 +12,7 @@ _SERVER_VERSION="1.22"
 _SERVER_DOWNLOAD_PATH="5917/685"
 _SERVER_FILES="Server-Files-${_SERVER_VERSION}.zip"
 
-echo -e "${BLUE}> [DEBUG] All the Mods Server Version: ${_SERVER_VERSION}${NC}"
+echo -e "${BLUE}> [DEBUG] ATM10 - Server version: ${_SERVER_VERSION}${NC}"
 
 if [[ ! -d "/data" ]]; then
     echo -e "${RED}> [ERROR] No mountpoint found, data loss possible - Continue without persistent data!${NC}"
