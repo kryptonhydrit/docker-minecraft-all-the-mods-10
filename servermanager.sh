@@ -8,7 +8,11 @@ BLUE="\033[0;34m"
 NC="\033[0m"
 
 # Variables
-_SERVER_FILES="Server-Files-1.22.zip"
+_SERVER_VERSION="1.22"
+_SERVER_DOWNLOAD_PATH="5917/685"
+_SERVER_FILES="Server-Files-${_SERVER_VERSION}.zip"
+
+echo -e "${BLUE}> [DEBUG] All the Mods Server Version: ${_SERVER_VERSION}${NC}"
 
 if [[ ! -d "/data" ]]; then
     echo -e "${RED}> [ERROR] No mountpoint found, data loss possible - Continue without persistent data!${NC}"
@@ -31,7 +35,7 @@ if [[ ! -f "$_SERVER_FILES" ]]; then
         mods \
         packmenu \
         neoforge*
-    curl -Lo "$_SERVER_FILES" "https://mediafilez.forgecdn.net/files/5917/685/$_SERVER_FILES" || exit 1
+    curl -Lo "$_SERVER_FILES" "https://mediafilez.forgecdn.net/files/$_SERVER_DOWNLOAD_PATH/$_SERVER_FILES" || exit 1
     bsdtar -xf $_SERVER_FILES --strip-component 1
     ATM10_INSTALL_ONLY=true /bin/bash startserver.sh
 fi
