@@ -12,7 +12,7 @@ RUN yum update -y && \
 
 COPY --chmod=755 servermanager.sh /servermanager.sh
 COPY --chmod=755 includes/ /includes
-COPY --chmod=644 configs/ configs/
+COPY --chmod=644 configs/ /configs
 
 EXPOSE 25565/tcp
 
