@@ -10,7 +10,7 @@
 
 
 ## About
-On first run the container will download and install the tagged Version ´All the Mods 10-X.X.X´ and install it.
+On first run the container will download and install the tagged Version ´[All the Mods 10](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10)-X.X.X´ and install it.
 
 ## Getting started
 
