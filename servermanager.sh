@@ -34,6 +34,7 @@ if [[ ! -f "$_SERVER_FILES" ]]; then
         kubejs \
         mods \
         packmenu \
+        libraries \
         neoforge*
     curl -Lo "$_SERVER_FILES" "https://mediafilez.forgecdn.net/files/$_SERVER_DOWNLOAD_PATH/$_SERVER_FILES" || exit 1
     bsdtar -xf $_SERVER_FILES --strip-component 1
