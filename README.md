@@ -37,4 +37,4 @@ See [this file](/docs/ENV_VARS.md) for the documentation
 ## Sources
 
 Github: https://github.com/kryptonhydrit/docker-all-the-mods-10 \
-Docker: https://hub.docker.com/repository/docker/kryptonhydrit/minecraft-atm10
+Docker: https://hub.docker.com/r/kryptonhydrit/minecraft-atm10
