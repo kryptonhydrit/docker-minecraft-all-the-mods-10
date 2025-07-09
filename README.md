@@ -1,9 +1,9 @@
-# Docker - All the Mods 10 Server
+# Docker - Minecraft | All the Mods 10 Server
 ![Docker Image Version](https://img.shields.io/docker/v/kryptonhydrit/minecraft-atm10)
 ![Docker Pulls](https://img.shields.io/docker/pulls/kryptonhydrit/minecraft-atm10)
 ![Docker Stars](https://img.shields.io/docker/stars/kryptonhydrit/minecraft-atm10)
 
-- [Docker - All the Mods 10 Server](#docker---all-the-mods-10-server)
+- [Docker - Minecraft | All the Mods 10 Server](#docker---minecraft--all-the-mods-10-server)
   - [About](#about)
   - [Getting started](#getting-started)
   - [Environment variables](#environment-variables)
